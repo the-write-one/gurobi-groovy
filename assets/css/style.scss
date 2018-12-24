@@ -1,0 +1,19 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.wrapper { width: 960px; }
+
+header  { width: 220px; }
+
+section { width: 720px; }
+
+footer  { width: 220px; }
+
+a:hover, a:focus {
+    font-weight: inherit;
+    text-decoration: underline;
+}
+
+pre, code { font-size: 13px; }
