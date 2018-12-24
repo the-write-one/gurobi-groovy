@@ -8,6 +8,6 @@ This example formulates and solves the following simple MIP model:
    x, y, z binary
 ```
 
-* View source: [mip1.groovy](mip1.groovy)
+* View source: [mip1.groovy](https://github.com/the-write-one/gurobi-groovy/blob/master/mip1/mip1.groovy)
 * Compare: [mip1.py](https://www.gurobi.com/documentation/8.1/examples/mip1_py.html),
-  [Mip1.java](https://www.gurobi.com/documentation/8.1/examples/mip1_java.html)
+           [Mip1.java](https://www.gurobi.com/documentation/8.1/examples/mip1_java.html)
