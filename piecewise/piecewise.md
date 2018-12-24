@@ -11,6 +11,6 @@ formulates and solves a simpler LP model by approximating `f` and
 into a MIP by negating the approximation for `f`, which corresponds
 to a non-convex piecewise-linear function, and solves it again.
 
-* View source: [piecewise.groovy](piecewise.groovy)
+* View source: [piecewise.groovy](https://github.com/the-write-one/gurobi-groovy/blob/master/piecewise/piecewise.groovy)
 * Compare: [piecewise.py](https://www.gurobi.com/documentation/8.1/examples/piecewise_py.html),
            [piecewise.java](https://www.gurobi.com/documentation/8.1/examples/piecewise_java.html)
