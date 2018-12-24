@@ -1,6 +1,6 @@
 # Gurobi Models in Groovy
 
-** Gurobi Optimizer models definied and executed in Groovy environment**
+**Gurobi Optimizer models definied and executed in Groovy environment**
 
 Groovy is a powerful scripting language and environment based on Java.
 It can be used stand-alone by organizations and developers using Java platform.
