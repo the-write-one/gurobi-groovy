@@ -1,7 +1,7 @@
 # Integrating Gurobi API with Groovy Environment
 
-Here we will illustrate how a Groovy environment can be configured alongside Gurobi installation.
-We will be using Windows as an operating system. Similar aproach can be followed under Mac OS X and Linux,
+Here we illustrate how a Groovy environment is configured alongside a Gurobi installation.
+We are using Windows as an operating system. A similar aproach can be followed under Mac OS X and Linux,
 since Groovy is a multi-platform tool based on Java.
 One familiar Gurobi example will show several useful features of Groovy as Gurobi programming interface.
 
@@ -34,7 +34,7 @@ Running from the `examples\python` folder:
 ```
 examples\python> gurobi.bat ../python/sos.py
 ```
-we get the follwoing output:
+we get the following output:
 
 ```
 Optimize a model with 0 rows, 3 columns and 0 nonzeros
@@ -65,12 +65,12 @@ Obj: 3
 
 ## Running Groovy Model from Command Line (Windows)
 
-To build and solve the same model in Groovy, we use the following command line:
+To build and solve the same model in Groovy, use the following command line:
 ```
 examples\groovy> groovy_run.bat sos.groovy
 ```
 
-And the output is similar to that of Python.
+The output is similar to that of Python.
 It consists of two parts:
 
 The implicit diagnostic portion (`stderr`)
@@ -107,17 +107,17 @@ x2: 2.0
 Obj: -3.0
 ```
 
-Note: the output precision of printing numeric values in Groovy is configurable
-by similar facilities as in other languages. The default number to string 
-conversion is similar to Java. In addtion `sprintf` style formatting is available.
+Note: The output precision of printing numeric values in Groovy is configurable
+by similar facilities as in other languages. The default number to the string 
+conversion is similar to Java. In addition `sprintf` style formatting is available.
 
 ## Running Gurobi Model inside Groovy Console
 
-The Groovy Swing Console allows entering and running Groovy scripts interactively,
-and provide introspective facilities, such as code inspection, and visualizing excution results,
-browsing varibles and class members.
+The Groovy Swing Console allows entering and running Groovy scripts interactively.
+The console provides introspective facilities, such as code inspection, visualizing excution results,
+browsing varibles, and class members.
 
-To execute the same Groovy script in Groovy Console, we use the following command line:
+To execute the same Groovy script in Groovy Console, use the following command line:
 ```
 examples\groovy> groovy_run.bat sos.groovy
 ```
@@ -126,12 +126,12 @@ Below is a typical view of the Groovy Console environment:
 ![Groovy Console environment](GroovyConsole.png)
 
 While execuiting a Gurobi model defined in Groovy, we can observe the following features:
-* the command line window can optionally be consulted, which starts Groovy Console
-* the diagnostic output (same that we saw when running a simple command line script) is also printed into the command line window
-* the main view of the Groovy Console contains the loaded script
-* the output area with executed script lines and results output
+* The command line window can optionally be consulted, which starts Groovy Console
+* The diagnostic output (same that we saw when running a simple command line script) is also printed into the command line window
+* The main view of the Groovy Console contains the loaded script
+* The output area with executed script lines and results output
 
-**Note:** it is not required to start the Groovy Console with a particular script.
-Without a script an empty console will be opened, where a new model can be entered
+**Note:** It is not required to start the Groovy Console with a particular script.
+Without a script, an empty console is opened, and a new model can be entered
 line-by-line and executed interactively, as a whole or specifying a desired selection subset.
 
