@@ -72,7 +72,9 @@ examples\groovy> groovy_run.bat sos.groovy
 
 And the output is similar to that of Python.
 It consists of two parts:
-* the implicit diagnostic portion (`stderr`)
+
+The implicit diagnostic portion (`stderr`)
+
 ```
 Optimize a model with 0 rows, 3 columns and 0 nonzeros
 Model has 2 SOS constraints
@@ -95,7 +97,9 @@ Solution count 2: -3 0
 Optimal solution found (tolerance 1.00e-04)
 Best objective -3.000000000000e+00, best bound -3.000000000000e+00, gap 0.0000%
 ```
+
 And the output specified in the Groovy script using Gurobi API:
+
 ```
 x0: 0.0
 x1: 1.0
