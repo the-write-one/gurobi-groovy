@@ -25,7 +25,7 @@ in the command line.
 
 For the purposes of this exercise, we will be building and solving a trivial SOS model.
 For more details, please see
-* [sos](sos/sos.md) - a very simple Special Ordered Set (SOS) model
+* [sos](../sos/sos.md) - a very simple Special Ordered Set (SOS) model
 
 To verify our results in Groovy, we will compare them with the following Python example:
 * compare: [sos.py](https://www.gurobi.com/documentation/8.1/examples/sos_py.html)
