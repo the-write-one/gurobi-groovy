@@ -20,7 +20,7 @@ Groovy provides the following features making it a premier candidate for interac
   pipe-line (command chain) notation, operator overloading, etc
 * an **easy custom engine API**, which allows restricting and sandboxing syntax and execution in 
   security sensitive environments, such as web and enterprise applications, while allowing user extensibility at run-time
-* **functional programming** aspects, produce compact intuitive definitions close to mathematical notation;
+* **functional programming** aspects, producing compact intuitive definitions close to mathematical notation;
   examples including list comprehensions, collection abstractions, types inferrence
 
 ## Adapting Gurobi Examples
