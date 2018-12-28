@@ -3,7 +3,7 @@
 Here we illustrate how a Groovy environment is configured alongside a Gurobi installation.
 We are using Windows as an operating system. A similar approach can be followed under Mac OS X and Linux,
 since Groovy is a multi-platform tool based on Java.
-One familiar Gurobi example will show several useful features of Groovy as Gurobi programming interface.
+One familiar Gurobi example will show several useful features of Groovy as a Gurobi programming interface.
 
 ## Helper Command Line Scripts
 
