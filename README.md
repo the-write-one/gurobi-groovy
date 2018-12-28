@@ -1,32 +1,36 @@
 # Gurobi Models in Groovy
 
-**Gurobi Optimizer models definied and executed in Groovy environment**
+**Gurobi Optimizer models defined and executed in Groovy environment**
 
-Groovy is a powerful scripting language and environment based on Java.
-It can be used stand-alone by organizations and developers using Java platform.
-But it is especially useful as an extensibility and customization feature,
-integrated into Java-based applications, be it desktop, web servers or mobile.
+Groovy is a powerful scripting language based on Java.
+The Groovy language and it's programming environment can be used on its own by
+organizations and developers working on the Java platform.
+Yet most importantly, be it desktops, web servers, or mobile devices, Groovy 
+is especially useful because of extensibility and customization features 
+provided for a Java-based product.
 
 ## Groovy Features
 
-* **Scripting language**, which does not require complation infrastructure, can be executed interactively; 
-  similar to Python, matlab, R
-* **Light-weight layer on top of Java**, taking advantage of large variety of standard and third-party libraries
-* **Flexible syntax** codusive to creating a DSL, benefitting from optional parentheses, 
-  allowing pipe-line (command chain) notation, operator overloading
-* **Easy custom engine API**, which allows restricting and sandboxing syntax and execution in 
-  security sensitive environments, such as web and enterprose applications, which allowing user extensibility at run-time
-* **Functional Programming** aspects produce compact intuitive definitions close to mathematical notation.
-  Examples include list comprehensions, collection abstractions, types inferrence
+Groovy provides the following features making it a premier candidate for interactive analytical computation:
+
+* a **scripting language**, which does not require build step and can be executed interactively,
+  similar to Python, MATLAB, the R environment
+* a **light-weight layer on top of Java**, which takes advantage of large variety of standard and third-party libraries
+* a **flexible syntax** conducive to creating a [DSL](http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html) (domain-specific language); the benefits including optional parentheses,
+  pipe-line (command chain) notation, operator overloading, etc
+* an **easy custom engine API**, which allows restricting and sandboxing syntax and execution in 
+  security sensitive environments, such as web and enterprise applications, while allowing user extensibility at run-time
+* **functional programming** aspects, produce compact intuitive definitions close to mathematical notation;
+  examples including list comprehensions, collection abstractions, types inferrence
 
 ## Adapting Gurobi Examples
 
-Here we will illustrate how a **[Groovy environment](bin/bin.md)** can be configured alongside Gurobi installation.
+Here we illustrate how a **[Groovy environment](bin/bin.md)** can be configured alongside Gurobi installation.
 A number of familiar Gurobi examples will show several useful features of Groovy as Gurobi programming interface.
 
 ### Groovy Environment
 
-These examples will show integration of Groovy environment and Gurobi installation.
+These examples show integration of Groovy environment and Gurobi installation.
 Examples of using command-line execution of Groovy scripts and Groovy Console are provided.
 
 * [sos](sos/sos.md) - a very simple Special Ordered Set (SOS) model
@@ -35,7 +39,7 @@ Examples of using command-line execution of Groovy scripts and Groovy Console ar
 
 ### Integrating Gurobi API in Groovy
 
-These example will show how to use algebraic notation by overloading Groovy operators.
+These examples show how to use algebraic notation by overloading Groovy operators.
 
 * [mip1](mip1/mip1.md) - formulates and solves a simple MIP model
 
