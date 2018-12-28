@@ -21,7 +21,7 @@ integrated into Java-based applications, be it desktop, web servers or mobile.
 
 ## Adapting Gurobi Examples
 
-Here we will illustrate how a Groovy environment can be configured alongside Gurobi installation.
+Here we will illustrate how a **[Groovy environment](bin/bin.md)** can be configured alongside Gurobi installation.
 A number of familiar Gurobi examples will show several useful features of Groovy as Gurobi programming interface.
 
 ### Groovy Environment
