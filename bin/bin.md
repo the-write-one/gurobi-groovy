@@ -1,7 +1,7 @@
 # Integrating Gurobi API with Groovy Environment
 
 Here we illustrate how a Groovy environment is configured alongside a Gurobi installation.
-We are using Windows as an operating system. A similar aproach can be followed under Mac OS X and Linux,
+We are using Windows as an operating system. A similar approach can be followed under Mac OS X and Linux,
 since Groovy is a multi-platform tool based on Java.
 One familiar Gurobi example will show several useful features of Groovy as Gurobi programming interface.
 
@@ -11,7 +11,7 @@ Let's assume the following locations for Gurobi and Groovy installation:
  * `GUROBY_DIR=c:\VM\gurobi810\win64`
  * `GROOVY_DIR=c:\Tools\groovy-2.4.7`
 
-The following command files provide integration between Groovy environment and Gurobi installation
+The following command files provide integration between Groovy environment and Gurobi installation:
 
 * [groovy_run.bat](groovy_run.bat) - running Groovy model from command line
 * [sgroovy_console.bat](groovy_console.bat) - running Gurobi model inside Groovy Console interactive environment
@@ -23,7 +23,7 @@ in the command line.
 
 ## Model Example
 
-For the purposes of this excercise, we will be building and solving a trivial SOS model.
+For the purposes of this exercise, we will be building and solving a trivial SOS model.
 For more details, please see
 * [sos](sos/sos.md) - a very simple Special Ordered Set (SOS) model
 
@@ -109,13 +109,13 @@ Obj: -3.0
 
 Note: The output precision of printing numeric values in Groovy is configurable
 by similar facilities as in other languages. The default number to the string 
-conversion is similar to Java. In addition `sprintf` style formatting is available.
+conversion is similar to Java. In addition, `sprintf` style formatting is available.
 
 ## Running Gurobi Model inside Groovy Console
 
 The Groovy Swing Console allows entering and running Groovy scripts interactively.
-The console provides introspective facilities, such as code inspection, visualizing excution results,
-browsing varibles, and class members.
+The console provides introspective facilities, such as code inspection, visualizing execution results,
+browsing variables, and class members.
 
 To execute the same Groovy script in Groovy Console, use the following command line:
 ```
@@ -125,7 +125,7 @@ Below is a typical view of the Groovy Console environment:
 
 ![Groovy Console environment](GroovyConsole.png)
 
-While execuiting a Gurobi model defined in Groovy, we can observe the following features:
+While executing a Gurobi model defined in Groovy, we observe the following features:
 * The command line window can optionally be consulted, which starts Groovy Console
 * The diagnostic output (same that we saw when running a simple command line script) is also printed into the command line window
 * The main view of the Groovy Console contains the loaded script
