@@ -14,8 +14,8 @@ provided for a Java-based product.
 Groovy provides the following features making it a premier candidate for interactive analytical computation:
 
 * a **scripting language**, which does not require build step and can be executed interactively,
-  similar to Python, MATLAB, the R environment
-* a **light-weight layer on top of Java**, which takes advantage of large variety of standard and third-party libraries
+  similar to Python, MATLAB, and the R environment
+* a **light-weight layer on top of Java**, which takes advantage of a large variety of standard and third-party libraries
 * a **flexible syntax** conducive to creating a [DSL](http://docs.groovy-lang.org/docs/latest/html/documentation/core-domain-specific-languages.html) (domain-specific language); the benefits including optional parentheses,
   pipe-line (command chain) notation, operator overloading, etc
 * an **easy custom engine API**, which allows restricting and sandboxing syntax and execution in 
