@@ -45,6 +45,24 @@ model.addSOS sosv1, soswt1, GRB.SOS_TYPE1
 :bulb: **Note:** In Groovy, parentheses in a function call are optional,
 and may be omitted to improve readability.
 
+## Result Output
+
+Results can be obtained similar to Java, but in a more compact form
+using list iteration and string interpolation shortcuts.
+
+```groovy
+x.each { println "${it.get(GRB.StringAttr.VarName)}: ${it.get(GRB.DoubleAttr.X)}" }
+
+println 'Obj: ' + model.get(GRB.DoubleAttr.ObjVal)
+```
+The above example would produce the output:
+```
+x0 0
+x1 1
+x2 2
+Obj: 3
+```
+
 ## Error Handling
 
 The Groovy version omits explicit error handling, because any errors
