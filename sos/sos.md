@@ -7,7 +7,7 @@ and a pair of SOS constraints of type 1.
            [Sos.java](https://www.gurobi.com/documentation/8.1/examples/sos_java.html)
 
 
-## Error Hnadling
+## Error Handling
 
 The Groovy version omits explicit error handling, because any errors
 would be appropriately reported by Groovy error reporting. This includes errors
