@@ -16,6 +16,9 @@ The following command files provide integration between Groovy environment and G
 * [groovy_run.bat](groovy_run.bat) - running Groovy model from command line
 * [sgroovy_console.bat](groovy_console.bat) - running Gurobi model inside Groovy Console interactive environment
 
+Both command files add Gurobi `jar` library to the Groovy class path:
+* `-cp "%GUROBY_DIR%\lib\gurobi.jar"`
+
 In the following examples, we'll assume that the Gurobi model written in Groovy is located 
 in the same folder as the above command scripts. Otherwise, the command script folder can be added
 to the `PATH` environment variable, or the path can be specified as part of the command script name 
